@@ -1,7 +1,8 @@
 const chalk = require("chalk");
 const clear = require("clear");
 const figlet = require("figlet");
-module.exports = (plop) => {
+
+const generator = (plop) => {
   clear();
   console.log(
     chalk.red(
@@ -67,3 +68,5 @@ module.exports = (plop) => {
     },
   });
 };
+
+module.exports = generator;
