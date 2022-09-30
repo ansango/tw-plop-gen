@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("./theme-ui/src/index.js")],
+  plugins: [require("./.theme-ui/src/index.js")],
   twui: {
     styled: true,
     themes: true,
