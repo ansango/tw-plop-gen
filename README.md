@@ -39,3 +39,12 @@ yarn cli # npm run cli
 ```bash
 yarn build:ui # npm run build:ui
 ```
+
+> Add the plugin into tailwindcss config file.
+
+```js
+// tailwind.config.js
+module.exports = {
+  plugins: [require("./.theme-ui/src/index.js")],
+};
+```
