@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "scripts": {
     "cli": "cd .cli/ && npm run start",
-    "build:ui": "cd .theme-ui/ && npm run build",
+    "build:ui": "cd .theme-ui/ && yarn install && yarn build",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "yarn build:ui && tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
