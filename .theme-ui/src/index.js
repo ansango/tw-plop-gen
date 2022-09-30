@@ -15,7 +15,6 @@ const themes = require("./colors/themes");
 const colorFunctions = require("./colors/functions");
 
 const mainFunction = ({ addBase, addComponents, addUtilities, config, postcss }) => {
-  console.log("hola",config("twui"))
   let optionsIncluded = [];
   let logs = false;
   if (config("twui.logs") != false) {
