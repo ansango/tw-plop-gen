@@ -1,0 +1,19 @@
+{
+  "name": "app-cli",
+  "version": "1.0.0",
+  "description": "cli plop generator",
+  "main": "index.js",
+  "repository": "https://github.com/ansango/tw-plop-gen",
+  "author": "Anibal Santos",
+  "license": "MIT",
+  "scripts": {
+    "start": "plop --plopfile index.js"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "plop": "^3.1.1"
+  },
+  "dependencies": {}
+}
