@@ -27,3 +27,15 @@ yarn install # npm install
 ```bash
 yarn dev # npm run dev
 ```
+
+### Start CLI
+
+```bash
+yarn cli # npm run cli
+```
+
+### Build Theme UI classes
+
+```bash
+yarn build:ui # npm run build:ui
+```
